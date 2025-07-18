@@ -72,7 +72,7 @@
     <hal format="aidl">
         <name>android.hardware.radio.messaging</name>
         <fqname>IRadioMessaging/slot1</fqname>
-        <fqname>IRadioMessaging/slot12/fqname>
+        <fqname>IRadioMessaging/slot2/fqname>
     </hal>
     <hal format="aidl">
         <name>android.hardware.radio.modem</name>
@@ -82,7 +82,7 @@
     <hal format="aidl">
         <name>android.hardware.radio.network</name>
         <fqname>IRadioNetwork/slot1</fqname>
-        <fqname>IRadioNetwork/slot12/fqname>
+        <fqname>IRadioNetwork/slot2/fqname>
     </hal>
     <hal format="aidl">
         <name>android.hardware.radio.sim</name>
