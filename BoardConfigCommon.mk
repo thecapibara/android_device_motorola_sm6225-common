@@ -68,7 +68,7 @@ BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
-TARGET_KERNEL_CONFIG := vendor/bengal-perf_defconfig vendor/debugfs.config vendor/ext_config/moto-bengal.config
+TARGET_KERNEL_CONFIG := vendor/bengal-perf_defconfig vendor/ext_config/moto-bengal.config
 TARGET_KERNEL_SOURCE := kernel/motorola/sm6225
 
 # Kernel Modules - Audio
@@ -105,9 +105,6 @@ TARGET_MODULE_ALIASES += \
 # Kernel Modules - WLAN
 TARGET_MODULE_ALIASES += \
     wlan.ko:qca_cld3_wlan.ko
-
-# Media
-TARGET_USES_ION := true
 
 # Partitions
 -include vendor/lineage/config/BoardConfigReservedSize.mk
